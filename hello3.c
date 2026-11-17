@@ -1,13 +1,12 @@
 #include<stdio.h>
 int main(){
-int age;
-printf("Enter your age: ");
-scanf("%d",&age);
-if(age>=18){
-printf("You are eligible to vote.\n");
-}
-else {
-    printf("You are not eligible to vote.\n");
-}
+int gross,basic,HRA,DA;
+printf("Enter your basic salary: ");
+printf("Enter your HRA salary: ");
+printf("Enter your DA salary: ");
+scanf("%d %d %d",&basic,&HRA,&DA);
+
+gross=basic+HRA+DA;
+printf("Your gross salary is: %d\n",gross);
 return 0;
 }
