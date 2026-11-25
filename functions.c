@@ -1,15 +1,15 @@
 #include<stdio.h>
-void printHello();
+void printHello(); //declaration
 void printHi();
 
 int main(){
 printHello();
-printHi();
+printHi();  //call
 return 0;
 }
 
 void printHello(){
-    printf("hello world\n");
+    printf("hello world\n");    //defination
 }
 
 void printHi(){
